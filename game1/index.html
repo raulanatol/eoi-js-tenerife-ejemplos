@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <title>Game 1</title>
+  <meta name="description" content="First game">
+  <meta name="author" content="raulanatol">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container clearfix">
+    <div class="chat">
+      <div class="header clearfix">
+        <p>Game 1</p>
+      </div>
+      <div class="history">
+        <ul id="history-list">
+        </ul>
+      </div>
+      <div class="input-message-box">
+        <textarea name="message-to-send" id="message-to-send" rows="2" onkeydown="onKeyDownTextArea(event)"></textarea>
+        <button type="button" onclick="userSpeak()"><span>Enviar</span></button>
+      </div>
+    </div>
+  </div>
+  <script src="misc/internal.js"></script>
+  <script src="misc/utils.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
