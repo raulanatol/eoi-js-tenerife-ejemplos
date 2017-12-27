@@ -1,0 +1,17 @@
+body {
+  background-color: #282c33;
+}
+
+a {
+  color: #f25b74;
+}
+
+div {
+  padding: 15px;
+  border: 1px solid #acb2bb;
+  width: 250px;
+}
+
+p {
+  color: #acb2bb;
+}
